@@ -9,6 +9,7 @@
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                flex-wrap: wrap;
 
                 /* flex-wrap: wrap; */
                 /* justify-content: end; */
@@ -24,32 +25,46 @@
                 margin-top: 10px;
                 display: flex;
                 justify-content: space-evenly;
+                flex-wrap: wrap;
+                
                 background-color: bisque;
-               height: 250px;
+              
             }
             .header{
+
                 padding-left: 0px;
                 display:flex;
                 justify-content: start;
+                flex-wrap: wrap;   
               
             }
             .img1{
+                overflow: hidden;
                 display: flex;
-                width: 200px;
+                width: 100%;
                 height: 200px;
                 /* margin-right: 10px; */
                 margin: 20px;
+                 /* flex:1 1 0; */
+                 
             }
             .foot{text-align: center;}
             .bat{display: flex;
                   flex-direction: row;
-                 justify-content: space-evenly;}
+                 justify-content: space-evenly;
+                flex-wrap: wrap;  }
             .uk{
+                 flex:1 1 0;
                 color: white;
                 background-color: black;
                 display: flex;
                   flex-direction: row;
                  justify-content: space-evenly;
+                 flex-wrap: wrap;  
+            }
+            .lol{
+                
+                margin-top: 15px;
             }
             
 
@@ -60,7 +75,7 @@
         <div class="cat">
             
                 <img src="swiggi.png" height="50" width="50">
-                    <div>
+                    <div class="lol">
                          <a href="#" >Home </a>
                           <a href="#"> Menu </a>
                          <a href="#"> Contact</a>
@@ -70,7 +85,7 @@
             <div >   
             <h3 class="header">Delicious food,delivery food</h3>
             <p>order your food meals and get them
-                deliverd right to your door step in minuts
+                deliverd
             </p>
             </div>
         <div class="img1" >
@@ -117,4 +132,5 @@
             </section>
         </div>
     </body>
+</html>
 </html>
